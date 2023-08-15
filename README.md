@@ -18,7 +18,7 @@ Bike sharing systems have gained popularity as a new generation of bike rentals,
 
 ## Dataset
 
-The dataset used in this project contains a set of features recorded from bike-sharing systems. It includes information such as weather conditions, time of day, and other relevant factors that may influence bike rentals. The dataset is available [here](https://github.com/AriolaLeka/Bike-Rental-Prediction/blob/main/hour-Train.csv).
+The dataset used in this project contains a set of features recorded from bike-sharing systems. It includes information such as weather conditions, time of day, and other relevant factors that may influence bike rentals. The dataset is available [here](https://github.com/AriolaLeka/Bike-Rental-Prediction/blob/main/hour-Train.csv) for the training part and [here](https://github.com/AriolaLeka/Bike-Rental-Prediction/blob/main/hour-Test.csv) for the test.
 
 ## Exploratory Data Analysis
 
