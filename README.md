@@ -10,9 +10,7 @@ This repository contains the code and analysis for predicting the number of tota
 - [Preprocessing](#preprocessing)
 - [Prediction Model](#prediction-model)
 - [Evaluation](#evaluation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Code](#usage)
 
 ## Introduction
 
@@ -20,11 +18,11 @@ Bike sharing systems have gained popularity as a new generation of bike rentals,
 
 ## Dataset
 
-The dataset used in this project contains a set of features recorded from bike-sharing systems. It includes information such as weather conditions, time of day, and other relevant factors that may influence bike rentals. The dataset is available [here](link_to_dataset).
+The dataset used in this project contains a set of features recorded from bike-sharing systems. It includes information such as weather conditions, time of day, and other relevant factors that may influence bike rentals. The dataset is available [here](https://github.com/AriolaLeka/Bike-Rental-Prediction/blob/main/hour-Train.csv).
 
 ## Exploratory Data Analysis
 
-In this section, we performed standard descriptive statistics, visualized variables using graphs, drew distributions and histograms, and explored correlations between different features. Some interesting observations and insights we discovered include [mention a few interesting findings].
+In this section, we performed standard descriptive statistics, visualized variables using graphs, drew distributions and histograms, and explored correlations between different features. Some interesting observations and insights we discovered include:  casual and registered have the highest correlation ( 71% , 97% ), atemp and temp seem to carry the same information (99%), hr , temp and hum seem to be that will be the most important variables for the model. 
 
 ## Preprocessing
 
@@ -32,16 +30,32 @@ Before building the prediction model, we preprocessed the data to handle unknown
 
 ## Prediction Model
 
-We built a prediction model to estimate the number of total rental bikes based on the provided features. We [briefly describe the chosen model or approach, e.g., linear regression, decision tree, neural network, etc.] and explain how the model was trained using the preprocessed dataset.
+We use 3 prediction models to estimate the number of total rental bikes based on the provided features. We use Random Forest Regression, Linear Regression and Multi-layer Perceptron.
 
 ## Evaluation
 
-To evaluate the accuracy of our prediction model, we used [describe the evaluation metrics used, e.g., Mean Squared Error (MSE), Root Mean Squared Error (RMSE), etc.]. The model's performance was compared against the actual values provided in the dataset.
+To evaluate the accuracy of our prediction model, we used MSE, MAE, R-squared evaluation metrics to assess the model’s performance and compare them amongst each other. The model's performance was compared against the actual values provided in the dataset.
 
-## Usage
+## Code 
 
 To use the code in this repository, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/bike-sharing-prediction.git`
-2. Navigate to the project directory: `cd bike-sharing-prediction`
-3. [Instructions on setting up and running the code]
+1. **Download the Project Files:**
+
+Click on the green "Code" button and select "Download ZIP." Extract the downloaded ZIP file to a location on your computer.
+
+2. **Open Google Colab:**
+
+   Open your web browser and navigate to [Google Colab](https://colab.research.google.com/).
+
+3. **Upload the Jupyter Notebook:**
+
+   In Google Colab, click on the "File" menu, then choose "Upload Notebook." Upload the `Bike-Rental-prediction/Bike Sharing.ipynb` file from the extracted project folder.
+
+4. **Run the Code:**
+
+   Once the notebook is uploaded, you can run the code cells sequentially by clicking the "Play" button (▶️) next to each cell. This will execute the code and display the output, including visualizations and analysis.
+
+5. **Follow the Instructions:**
+
+   The notebook contains step-by-step instructions and explanations. Read the markdown cells and comments within the code cells to understand the project's flow and purpose.
